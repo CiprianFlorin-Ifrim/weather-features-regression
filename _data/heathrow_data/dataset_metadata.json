@@ -1,0 +1,466 @@
+{
+  "G": {
+    "comments": "missing values are identified with the missing data flag"
+  },
+  "ob_time": {
+    "long_name": "Date and time of observation",
+    "type": "char",
+    "comments": "Date and time (YYYY-MM-DD HH:MM:SS) of the observation"
+  },
+  "id": {
+    "long_name": "station identifier",
+    "type": "char",
+    "comments": "a station may have more than one id assigned to it designated by the id_type"
+  },
+  "id_type": {
+    "long_name": "identifier type",
+    "type": "char",
+    "comments": "a station may have more than one id assigned to it defined by id_type"
+  },
+  "met_domain_name": {
+    "long_name": "message type",
+    "type": "char",
+    "comments": "message type (see MIDAS documentation)"
+  },
+  "version_num": {
+    "long_name": "midas qc version number",
+    "type": "int",
+    "comments": "The midas_qc_version_number indicates if the data are original received message (0) or current best version (1)"
+  },
+  "src_id": {
+    "long_name": "unique source identifier or station site number",
+    "type": "int",
+    "comments": "unique source identifier or station site number"
+  },
+  "rec_st_ind": {
+    "long_name": "state indicator for the record",
+    "type": "int",
+    "comments": "state indicator for the current stage in the life of the record (see MIDAS documentation)"
+  },
+  "wind_speed_unit_id": {
+    "long_name": "Wind speed unit code",
+    "type": "char",
+    "comments": "4=wind speed from anemometer,knots"
+  },
+  "src_opr_type": {
+    "long_name": "source operation type code",
+    "type": "char",
+    "comments": "source operation type code"
+  },
+  "wind_direction": {
+    "long_name": "wind direction",
+    "type": "int",
+    "comments": "wind direction in true degrees"
+  },
+  "wind_speed": {
+    "long_name": "wind speed",
+    "type": "float",
+    "comments": "wind speed"
+  },
+  "prst_wx_id": {
+    "long_name": "present weather code (see documentation)",
+    "type": "int",
+    "comments": "present weather code (see documentation)"
+  },
+  "past_wx_id_1": {
+    "long_name": "past weather code #1 (see documentation)",
+    "type": "int",
+    "comments": "past weather code #1 (see documentation)"
+  },
+  "past_wx_id_2": {
+    "long_name": "past weather code #2 (see documentation)",
+    "type": "int",
+    "comments": "past weather code #2 (see documentation)"
+  },
+  "cld_ttl_amt_id": {
+    "long_name": "Total cloud amount code",
+    "type": "int"
+  },
+  "low_cld_type_id": {
+    "long_name": "low cloud type code (see documentation)",
+    "type": "int",
+    "comments": "low cloud type code (see documentation)"
+  },
+  "med_cld_type_id": {
+    "long_name": "medium cloud type code (see documentation)",
+    "type": "int",
+    "comments": "medium cloud type code (see documentation)"
+  },
+  "hi_cld_type_id": {
+    "long_name": "high cloud type code (see documentation)",
+    "type": "int",
+    "comments": "high cloud type code (see documentation)"
+  },
+  "cld_base_amt_id": {
+    "long_name": "cloud base amount code (see documentation)",
+    "type": "int",
+    "comments": "cloud base amount code (see documentation)"
+  },
+  "cld_base_ht": {
+    "long_name": "cloud base height code",
+    "type": "int",
+    "comments": "cloud base height code"
+  },
+  "visibility": {
+    "long_name": "visibility",
+    "type": "int",
+    "comments": "visibility"
+  },
+  "msl_pressure": {
+    "long_name": "mean sea level air pressure",
+    "type": "float",
+    "comments": "mean sea level air pressure"
+  },
+  "cld_amt_id_1": {
+    "long_name": "layer cloud amount code #1",
+    "type": "char",
+    "comments": "layer cloud amount code #1"
+  },
+  "cloud_type_id_1": {
+    "long_name": "cloud type code #1",
+    "type": "char"
+  },
+  "cld_base_ht_id_1": {
+    "long_name": "cloud base height code #1",
+    "type": "int"
+  },
+  "cld_amt_id_2": {
+    "long_name": "layer cloud amount code #2",
+    "type": "char",
+    "comments": "layer cloud amount code #2"
+  },
+  "cloud_type_id_2": {
+    "long_name": "cloud type code #2",
+    "type": "char",
+    "comments": "cloud type code #2"
+  },
+  "cld_base_ht_id_2": {
+    "long_name": "cloud base height code #2",
+    "type": "int",
+    "comments": "cloud base height code #2"
+  },
+  "cld_amt_id_3": {
+    "long_name": "layer cloud amount code #3",
+    "type": "char",
+    "comments": "layer cloud amount code #3"
+  },
+  "cloud_type_id_3": {
+    "long_name": "cloud type code #3",
+    "type": "char",
+    "comments": "cloud type code #3"
+  },
+  "cld_base_ht_id_3": {
+    "long_name": "cloud base height code #3",
+    "type": "int",
+    "comments": "cloud base height code #3"
+  },
+  "cld_amt_id_4": {
+    "long_name": "layer cloud amount code #4",
+    "type": "char",
+    "comments": "layer cloud amount code #4"
+  },
+  "cloud_type_id_4": {
+    "long_name": "cloud type code #4",
+    "type": "char",
+    "comments": "cloud type code #4"
+  },
+  "cld_base_ht_id_4": {
+    "long_name": "cloud base height code #4",
+    "type": "int",
+    "comments": "cloud base height code #4"
+  },
+  "vert_vsby": {
+    "long_name": "vertical visibility",
+    "type": "int",
+    "comments": "vertical visibility"
+  },
+  "air_temperature": {
+    "long_name": "Air temperature",
+    "type": "float",
+    "comments": "Air temperature"
+  },
+  "dewpoint": {
+    "long_name": "Dewpoint temperature",
+    "type": "float",
+    "comments": "Dewpoint temperature"
+  },
+  "wetb_temp": {
+    "long_name": "Wetbulb temperature",
+    "type": "float",
+    "comments": "Wetbulb temperature"
+  },
+  "rltv_hum": {
+    "long_name": "Calculated relative humidity",
+    "type": "float",
+    "comments": "Calculated relative humidity"
+  },
+  "stn_pres": {
+    "long_name": "Station air pressure",
+    "type": "float",
+    "comments": "Station air pressure"
+  },
+  "alt_pres": {
+    "long_name": "Altimeter pressure",
+    "type": "float",
+    "comments": "Altimeter pressure"
+  },
+  "ground_state_id": {
+    "long_name": "Ground state code (see documentation)",
+    "type": "char",
+    "comments": "Ground state code (see documentation)"
+  },
+  "q10mnt_mxgst_spd": {
+    "long_name": "10 minute maximum gust speed",
+    "type": "int",
+    "comments": "10 minute maximum gust speed"
+  },
+  "cavok_flag": {
+    "long_name": "cavok flag",
+    "type": "char",
+    "comments": "cavok flag"
+  },
+  "cs_hr_sun_dur": {
+    "long_name": "Campbell-stokes hour sunshine duration",
+    "type": "float",
+    "comments": "Campbell-stokes hour sunshine duration"
+  },
+  "wmo_hr_sun_dur": {
+    "long_name": "WMO hour sunshine duration",
+    "type": "float",
+    "comments": "WMO hour sunshine duration"
+  },
+  "snow_depth": {
+    "long_name": "Snow depth",
+    "type": "int",
+    "comments": "Snow depth"
+  },
+  "wind_direction_q": {
+    "long_name": "QC code - wind direction",
+    "type": "int"
+  },
+  "wind_speed_q": {
+    "long_name": "QC code - wind speed",
+    "type": "int"
+  },
+  "prst_wx_id_q": {
+    "long_name": "QC code - present weather",
+    "type": "int"
+  },
+  "past_wx_id_1_q": {
+    "long_name": "QC code - past weather code #1",
+    "type": "int"
+  },
+  "past_wx_id_2_q": {
+    "long_name": "QC code - past weather code #2",
+    "type": "int"
+  },
+  "cld_ttl_amt_id_q": {
+    "long_name": "QC code - cloud total amount",
+    "type": "int"
+  },
+  "low_cld_type_id_q": {
+    "long_name": "QC code - low cloud type code",
+    "type": "int"
+  },
+  "med_cld_type_id_q": {
+    "long_name": "QC code - medium cloud type code",
+    "type": "int"
+  },
+  "hi_cld_type_id_q": {
+    "long_name": "QC code - high cloud type code",
+    "type": "int"
+  },
+  "cld_base_amt_id_q": {
+    "long_name": "QC code - cloud base amount",
+    "type": "int"
+  },
+  "cld_base_ht_q": {
+    "long_name": "QC code - cloud base height",
+    "type": "int"
+  },
+  "visibility_q": {
+    "long_name": "QC code - visibility",
+    "type": "int"
+  },
+  "msl_pressure_q": {
+    "long_name": "QC code - msl pressure",
+    "type": "int"
+  },
+  "air_temperature_q": {
+    "long_name": "QC code - air temperature",
+    "type": "int"
+  },
+  "dewpoint_q": {
+    "long_name": "QC code - dewpoint temperature",
+    "type": "int"
+  },
+  "wetb_temp_q": {
+    "long_name": "QC code - wetbulb temperature",
+    "type": "int"
+  },
+  "ground_state_id_q": {
+    "long_name": "QC code - ground state code",
+    "type": "int"
+  },
+  "cld_amt_id_1_q": {
+    "long_name": "QC code - layer cloud amount #1",
+    "type": "int"
+  },
+  "cloud_type_id_1_q": {
+    "long_name": "QC code - cloud type code #1",
+    "type": "int"
+  },
+  "cld_base_ht_id_1_q": {
+    "long_name": "QC code - cloud base height code #1",
+    "type": "int"
+  },
+  "cld_amt_id_2_q": {
+    "long_name": "QC code - layer cloud amount #2",
+    "type": "int"
+  },
+  "cloud_type_id_2_q": {
+    "long_name": "QC code - cloud type code #2",
+    "type": "int"
+  },
+  "cld_base_ht_id_2_q": {
+    "long_name": "QC code - cloud base height code #2",
+    "type": "int"
+  },
+  "cld_amt_id_3_q": {
+    "long_name": "QC code - layer cloud amount #3",
+    "type": "int"
+  },
+  "cloud_type_id_3_q": {
+    "long_name": "QC code - cloud type code #3",
+    "type": "int"
+  },
+  "cld_base_ht_id_3_q": {
+    "long_name": "QC code - cloud base height code #3",
+    "type": "int"
+  },
+  "cld_amt_id_4_q": {
+    "long_name": "QC code - layer cloud amount #4",
+    "type": "int"
+  },
+  "cloud_type_id_4_q": {
+    "long_name": "QC code - cloud type code #4",
+    "type": "int"
+  },
+  "cld_base_ht_id_4_q": {
+    "long_name": "QC code - cloud base height code #4",
+    "type": "int"
+  },
+  "vert_vsby_q": {
+    "long_name": "QC code - vertical visibility",
+    "type": "int"
+  },
+  "stn_pres_q": {
+    "long_name": "QC code - station pressure",
+    "type": "int"
+  },
+  "alt_pres_q": {
+    "long_name": "QC code - altimiter pressure",
+    "type": "int"
+  },
+  "q10mnt_mxgst_spd_q": {
+    "long_name": "QC code - 10 min maximum gust speed",
+    "type": "int"
+  },
+  "cs_hr_sun_dur_q": {
+    "long_name": "QC code - campbell-stokes hour sunshine",
+    "type": "int"
+  },
+  "wmo_hr_sun_dur_q": {
+    "long_name": "QC code - wmo hour sunshine",
+    "type": "int"
+  },
+  "snow_depth_q": {
+    "long_name": "QC code - snow depth",
+    "type": "int"
+  },
+  "wind_direction_j": {
+    "long_name": "Descriptor - wind direction",
+    "type": "char"
+  },
+  "wind_speed_j": {
+    "long_name": "Descriptor - wind speed",
+    "type": "char"
+  },
+  "prst_wx_id_j": {
+    "long_name": "Descriptor - present weather code",
+    "type": "char"
+  },
+  "past_wx_id_1_j": {
+    "long_name": "Descriptor - past weather code #1",
+    "type": "char"
+  },
+  "past_wx_id_2_j": {
+    "long_name": "Descriptor - past weather code #2",
+    "type": "char"
+  },
+  "cld_amt_id_j": {
+    "long_name": "Descriptor - cloud amount id",
+    "type": "char"
+  },
+  "cld_ht_j": {
+    "long_name": "Descriptor - cloud base height ",
+    "type": "char"
+  },
+  "visibility_j": {
+    "long_name": "Descriptor - visibility",
+    "type": "char"
+  },
+  "msl_pressure_j": {
+    "long_name": "Descriptor - msl pressure",
+    "type": "char"
+  },
+  "air_temperature_j": {
+    "long_name": "Descriptor - air temperature",
+    "type": "char"
+  },
+  "dewpoint_j": {
+    "long_name": "Descriptor - dewpoint temperature",
+    "type": "char"
+  },
+  "wetb_temp_j": {
+    "long_name": "Descriptor - wetbulb temperature",
+    "type": "char"
+  },
+  "rltv_hum_j": {
+    "long_name": "descriptor - relative humidity",
+    "type": "char"
+  },
+  "vert_vsby_j": {
+    "long_name": "Descriptor - vertical visibility",
+    "type": "char"
+  },
+  "stn_pres_j": {
+    "long_name": "Descriptor - station pressure",
+    "type": "char"
+  },
+  "alt_pres_j": {
+    "long_name": "Descriptor - altimiter pressure",
+    "type": "char"
+  },
+  "q10mnt_mxgst_spd_j": {
+    "long_name": "Descriptor - 10 min maximum gust speed",
+    "type": "char"
+  },
+  "meto_stmp_time": {
+    "long_name": "Met Office receipt stamp time",
+    "type": "char",
+    "comments": "Met Office receipt stampe time in format (YYYY-MM-DD HH:MM:SS)"
+  },
+  "midas_stmp_etime": {
+    "long_name": "Elapsed time to storage in MIDAS",
+    "type": "int"
+  },
+  "drv_hr_sun_dur": {
+    "long_name": "derived hour sunshine",
+    "type": "float"
+  },
+  "drv_hr_sun_dur_q": {
+    "long_name": "QC code - derived hour sunshine",
+    "type": "float"
+  }
+}
