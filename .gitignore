@@ -195,3 +195,10 @@ cython_debug/
 
 # Big Trained Models
 _models/best_model_wind-speed.joblib
+
+# Mac File System Variable
+.DS_Store
+_plots/.DS_Store
+_models/.DS_Store
+_data/.DS_Store
+_data/heathrow_data/.DS_Store
